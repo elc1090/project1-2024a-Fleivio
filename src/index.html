@@ -1,98 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Header com Bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header class="page-top">
-        <div class="page-logo"> 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTH92jJHk_n3GSKPf4UvHEp776ncUnrqCx4dK6_tIU3A&s" alt="logo">
-        </div>
+	<header class="my-header py-4 px-5">
+		<div class="row align-items-center">
+			<div class="col-auto p-0">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTH92jJHk_n3GSKPf4UvHEp776ncUnrqCx4dK6_tIU3A&s"
+						 alt="Logo" style="max-width: 70px;">
+			</div>
 
-        <nav class="main-nav" id="menu-nav">
-            <ul>
-                <li> 
-                    <a href="https://www.navi.com.ai/noticias-artigos" class="link-button"> Sobre </a> 
-                </li>
+			<nav class="col navbar navbar-expand-lg">
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav my-nav">
+						<li class="nav-item">
+							<a class="my-button btn" href="https://www.navi.com.ai/noticias-artigos">Sobre</a>
+						</li>
 
-                <li>
-                    <a href="https://www.navi.com.ai/startups" class="link-button"> Startups </a>
-                </li>
+						<li class="nav-item">
+							<a class="my-button btn" href="https://www.navi.com.ai/startups">Startups</a>
+						</li>
 
-                <li class="dropdown-hover">
-                    <span class="link-button"> Pilares </span> 
-                    <div class="dropdown-elements">
-                        <ul class="ul-dropdown">
-                            <li> <a href="https://www.navi.com.ai/espa%C3%A7o" class="link-button">Espaço</a> </li>
-                            <li> <a href="https://www.navi.com.ai/pesquisa" class="link-button">Pesquisa</a> </li>
-                            <li> <a href="https://www.navi.com.ai/programa" class="link-button">Programa</a> </li>
-                            <li> <a href="https://www.navi.com.ai/lab" class="link-button">Lab</a> </li>
-                        </ul>
-                    </div>
-                </li>
+						<li class="nav-item my-dropdown-hover">
+							<span class="my-button btn">Pilares</span>
+							<div class="dropdown-menu my-main-drop my-dropdown-elements">
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/espa%C3%A7o">Espaço</a>
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/pesquisa">Pesquisa</a>
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/programa">Programa</a>
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/lab">Lab</a>
+							</div> 
+						</li>
 
-                <li class="dropdown-hover">
-                    <span class="link-button"> Iniciativas </span> 
-                    <div class="dropdown-elements">
-                        <ul class="ul-dropdown">
-                            <li> <a href="https://www.navi.com.ai/navi-awards" class="link-button">Navi Awards</a> </li>
-                            <li> <a href="https://www.navi.com.ai/navi-bootcamp" class="link-button">Navi Bootcamp</a> </li>
-                            <li> <a href="https://www.raies.org/" class="link-button">Raies</a> </li>
-                            <li> <a href="https://www.navi.com.ai/deep-tech-challenge" class="link-button">Deep Tech Challenge</a> </li>
-                            <li> <a href="https://www.airespucrs.org/" class="link-button">Aires Pucrs</a> </li>
-                            
-                        </ul>
-                    </div>
-                </li>
-            
-                <li>
-                    <a href="" class="link-button"> Contato </a>
-                </li>
-            </ul>
-        </nav>
+						<li class="nav-item my-dropdown-hover">
+							<span class="my-button btn">Pilares</span>
+							<div class="dropdown-menu my-main-drop my-dropdown-elements">
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/navi-awards">Navi Awards</a>
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/navi-bootcamp">Navi Bootcamp</a>
+								<a class="dropdown-item my-button btn" href="https://www.raies.org/">Raies</a>
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/deep-tech-challenge">Deep Tech Challenge</a>
+								<a class="dropdown-item my-button btn" href="https://www.airespucrs.org/">Aires Pucrs</a>
+							</div> 
+						</li>
+						
+						<li class="nav-item">
+							<a class="my-button btn" href="https://www.navi.com.ai/contato">Contato</a>
+						</li>
 
-        <div id="menu-translate" class="main-nav">
-            <button class="link-button">
-                PT
-            </button>
-            <button class="link-button">
-                Acelere
-            </button>
-        </div>
-    </header>
+					</ul>
+				</div>
+			</nav>
 
-    <main>
-        <article>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-        </article>
+			<div class="col-auto">
+				<a class="btn my-button">Button</a>
+				<a class="btn my-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdVYoLwDvsJGyGjRMqHpM59ggQtJliA-3_oFrjr7jOj1m-1PA/viewform?usp=sf_link">Acelere</a>
+			</div>
+		</div>
+	</header>
 
-        <article>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-        </article>
 
-        <article>
 
-        </article>
 
-        <article>
 
-        </article>
-    </main>
 
-    <footer>
-        <nav> </nav>
-    </footer>
+
+	<main>
+
+    <!-- Artigo 1 -->
+    <article class="article">
+      <div class="container text-center">
+        <h2>Artigo 1</h2>
+        <p>Conteúdo do Artigo 1</p>
+      </div>
+    </article>
+
+    <!-- Artigo 2 -->
+    <article class="article">
+      <div class="container text-center">
+        <h2>Artigo 2</h2>
+        <p>Conteúdo do Artigo 2</p>
+      </div>
+    </article>
+
+    <!-- Artigo 3 -->
+    <article class="article">
+      <div class="container text-center">
+        <h2>Artigo 3</h2>
+        <p>Conteúdo do Artigo 3</p>
+      </div>
+    </article>
+
+    <!-- Artigo 4 -->
+    <article class="article">
+      <div class="container text-center">
+        <h2>Artigo 4</h2>
+        <p>Conteúdo do Artigo 4</p>
+      </div>
+    </article>
+
+    <!-- Artigo 5 -->
+    <article class="article">
+      <div class="container text-center">
+        <h2>Artigo 5</h2>
+        <p>Conteúdo do Artigo 5</p>
+      </div>
+    </article>
+
+  </main>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 </body>
+
 </html>
