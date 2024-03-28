@@ -1,6 +1,7 @@
-/* *{
+*{
     margin: 0 !important;
-} */
+    padding: 0;
+} 
 
 .my-dropdown-elements{
     display:none;
@@ -28,6 +29,7 @@
 
 .my-header{
     background-color: #001d4c;
+    box-shadow: 0px 0px 10px 2px black;
 }
 
 .my-button{
@@ -42,13 +44,14 @@
 }
 
 .my-button:hover {
-    color: #FF6B35;
-    background-color: transparent;
+    color: #001d4c;
+    background-color: white;
     box-shadow: -2px 2px 0px 0px #FF6B35;
     transform: translate(1px, -1px);
 }
 
 .my-bg-img {
+    z-index: -1;
     background-image: url('https://static.wixstatic.com/media/cc627c_a97f36c096bc4e2c967b48b284a92a1b~mv2.jpg/v1/fill/w_147,h_108,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/cc627c_a97f36c096bc4e2c967b48b284a92a1b~mv2.jpg');
     background-size: cover;
     background-position: center;
@@ -65,4 +68,15 @@
     background-repeat: repeat;
     width: 100%;
     position: relative;
+}
+
+.my-icon{
+    font-size: 3em;
+    color: white;
+}
+
+.my-icon:hover{
+    color: white;
+    text-shadow: -2px 2px 0px #FF6B35;
+    transform: scale(1.1);
 }
