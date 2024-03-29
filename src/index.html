@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link rel="stylesheet" href="style.css">
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -16,10 +19,7 @@
 	<header class="my-header py-4 px-5">
 		<div class="w-100 row align-items-center">
 			<div class="col-auto p-0" style="min-width: 5%">
-				<img 
-				src="images/logo-2.svg"
-				alt="Logo" 
-				class="w-100 d-block">
+				<img src="images/logo-2.svg" alt="Logo" class="d-block">
 			</div>
 
 			<nav class="col navbar navbar-expand-lg">
@@ -40,12 +40,9 @@
 						<li class="nav-item my-dropdown-hover">
 							<span class="my-button btn">Pilares</span>
 							<div class="dropdown-menu my-main-drop my-dropdown-elements">
-								<a class="dropdown-item my-button btn"
-									href="https://www.navi.com.ai/espa%C3%A7o">Espaço</a>
-								<a class="dropdown-item my-button btn"
-									href="https://www.navi.com.ai/pesquisa">Pesquisa</a>
-								<a class="dropdown-item my-button btn"
-									href="https://www.navi.com.ai/programa">Programa</a>
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/espa%C3%A7o">Espaço</a>
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/pesquisa">Pesquisa</a>
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/programa">Programa</a>
 								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/lab">Lab</a>
 							</div>
 						</li>
@@ -58,8 +55,8 @@
 								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/navi-bootcamp">Navi
 									Bootcamp</a>
 								<a class="dropdown-item my-button btn" href="https://www.raies.org/">Raies</a>
-								<a class="dropdown-item my-button btn"
-									href="https://www.navi.com.ai/deep-tech-challenge">Deep Tech Challenge</a>
+								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/deep-tech-challenge">Deep Tech
+									Challenge</a>
 								<a class="dropdown-item my-button btn" href="https://www.airespucrs.org/">Aires
 									Pucrs</a>
 							</div>
@@ -85,10 +82,7 @@
 
 		<article class="article py-5 my-bg-img shadow">
 			<div class="text-center">
-				<img
-					class="w-25" 
-					src="images/logo.svg"
-					alt="logo">
+				<img class="w-25" src="images/logo.svg" alt="logo">
 			</div>
 		</article>
 
@@ -96,136 +90,171 @@
 			<div class="text-center d-flex flex-column align-items-center">
 				<h1 class="my-h1 w-50">HUB DE INTELIGÊNCIA ARTIFICIAL E CIÊNCIA DE DADOS</h1>
 
-				<video 
-				        frameborder="0"
-						class="w-50 m-4"
-						controls
-						autoplay
-						muted>
-						<source 
-							src="https://video.wixstatic.com/video/cc627c_4add2f4b85da4e6a882b14158d65c38e/1080p/mp4/file.mp4"
-							type="video/mp4">
-						Your browser does not support iframes.
+				<video frameborder="0" class="w-50 m-4" controls autoplay muted>
+					<source src="https://video.wixstatic.com/video/cc627c_4add2f4b85da4e6a882b14158d65c38e/1080p/mp4/file.mp4"
+						type="video/mp4">
+					Your browser does not support iframes.
 				</video>
 
 				<p class="my-h2 w-75 m-4">
-					Nossa missão é conectar empreendedores, corporações, 
-					investidores e pesquisadores para fomentar iniciativas e 
+					Nossa missão é conectar empreendedores, corporações,
+					investidores e pesquisadores para fomentar iniciativas e
 					negócios com apoio da Inteligência Artificial.</p>
 			</div>
 		</article>
 
 		<article class="article py-5 shadow my-bg-img">
 			<div class="text-center">
-				<h1 class="my-h1 text-white">Startups</h1>
-				
+				<h1 class="my-h1 text-white">Startups Navi</h1>
+
+				<div class="d-flex justify-content-center mt-5">
+					<button id="prev-btn" class="my-prev-btn" type="button">
+						<span class="carousel-control-prev-icon"></span>
+					</button>
+
+					<div id="carousel-view" class="my-carousel-view">
+						<ul id="carousel-list" class="my-carousel-list">
+							<li class="my-carousel-item">
+								<div class="my-carousel-item-container">
+									<a href="https://www.energiadascoisas.com.br/" target="_blank">
+										<img src="images/startups/energia.png" alt="Startup 1">
+									</a>
+									<p>Monitore o consumo de energia em tempo real, facilitando o gerenciamento de ativos e evitando desperdícios. </p>
+								</div>
+							</li>
+							<li class="my-carousel-item">
+								<div class="my-carousel-item-container">
+									<a href="https://tecnopuc.pucrs.br/organizacao/greenmotor/" target="_blank">
+										<img src="images/startups/greenmotor.png" alt="Startup 2">
+									</a>
+									<p>Inteligência artificial para menor desperdício de alimentos</p>
+							</li>
+							<li class="my-carousel-item">
+								<div class="my-carousel-item-container">
+									<a href="http://neuralvision.com.br/" target="_blank">
+										<img src="images/startups/neuralvision.png" alt="Startup 2">
+									</a>
+									<p>Especialistas no desenvolvimento e consultoria de modelos de visão computacional baseados em redes neurais.</p>
+							</li>
+							<li class="my-carousel-item">
+								<div class="my-carousel-item-container">
+									<a href="https://tecnopuc.pucrs.br/organizacao/nexxo/" target="_blank">
+										<img src="images/startups/nexxo.webp" alt="Startup 2">
+									</a>
+									<p>Nexxo provê inteligência para suporte à decisão baseada em dados e IA.</p>
+							</li>
+							<li class="my-carousel-item">
+								<div class="my-carousel-item-container">
+									<a href="https://noharm.ai/" target="_blank">
+										<img src="images/startups/noharm.png" alt="Startup 2">
+									</a>
+									<p>Sistema que usa Inteligência Artificial auxiliando a Farmácia Clínica na tomada de decisão. </p>
+							</li>
+							<li class="my-carousel-item">
+								<div class="my-carousel-item-container">
+									<a href="https://tecnopuc.pucrs.br/organizacao/symcore/" target="_blank">
+										<img src="images/startups/symcore.png" alt="Startup 2">
+									</a>
+									<p>Soluções computacionais personalizadas em Inteligência Artificial para a indústria e o comércio.</p>
+							</li>
+							<li class="my-carousel-item">
+								<div class="my-carousel-item-container">
+									<a href="https://www.instagram.com/vetfyapp/" target="_blank">
+										<img src="images/startups/vetfy.png" alt="Startup 2">
+									</a>
+									<p>No site da Vetfy você encontra Veterinários, adestradores, dog walker, pet taxi, pet sitter e assessoria para escolha do pet.</p>
+							</li>
+						</ul>
+					</div>
+
+					<button id="next-btn" class="my-next-btn">
+						<span class="carousel-control-next-icon"></span>
+					</button>
+				</div>
+
+
 			</div>
 		</article>
 
 		<article class="article py-5 my-bg-repeat shadow">
 			<div class="text-center d-flex flex-column align-items-center">
 				<h1 class="my-h1">Parceiros</h2>
-				<div class="w-100 m-4 my-img-container">
-					<a href="https://www.associacaocomercialpoa.com.br" target="_blank">
-						<img class="my-small-img" src="images/parceiros/associacao.png" alt="Associação Comercial Porto Alegre">
-					</a>
-					<a href="https://www.oracle.com/br/cloud/" target="_blank">
-						<img class="my-small-img" src="images/parceiros/oracle.png" alt="Associação Comercial Porto Alegre">
-					</a>
-					<a href="https://aws.amazon.com/pt/?nc2=h_lg" target="_blank">
-						<img class="my-small-img" src="images/parceiros/aws.png" alt="AWS Activate">
-					</a>
-					<a href="https://www.banrisul.com.br/" target="_blank">
-						<img class="my-small-img" src="images/parceiros/banrisul.png" alt="Banrisul">
-					</a>
-					<a href="https://institutocaldeira.org.br/" target="_blank">
-						<img class="my-small-img" src="images/parceiros/caldeira.png" alt="Caldeira">
-					</a>
-					<a href="https://pt.catarinacapital.com/" target="_blank">
-						<img class="my-small-img" src="images/parceiros/catarina.png" alt="Catarina Capital">
-					</a>
-					<a href="https://www.nvidia.com/pt-br/" target="_blank">
-						<img class="my-small-img" src="images/parceiros/nvidia.webp" alt="Nvidia">
-					</a>
-					<a href="https://southcollabhealth.com.br/" target="_blank">
-						<img class="my-small-img" src="images/parceiros/shouthcollab.png" alt="South Collab Health">
-					</a>
-				</div>
+					<div class="w-100 m-4 my-img-container">
+						<a href="https://www.associacaocomercialpoa.com.br" target="_blank">
+							<img class="my-small-img" src="images/parceiros/associacao.png" alt="Associação Comercial Porto Alegre">
+						</a>
+						<a href="https://www.oracle.com/br/cloud/" target="_blank">
+							<img class="my-small-img" src="images/parceiros/oracle.png" alt="Associação Comercial Porto Alegre">
+						</a>
+						<a href="https://aws.amazon.com/pt/?nc2=h_lg" target="_blank">
+							<img class="my-small-img" src="images/parceiros/aws.png" alt="AWS Activate">
+						</a>
+						<a href="https://www.banrisul.com.br/" target="_blank">
+							<img class="my-small-img" src="images/parceiros/banrisul.png" alt="Banrisul">
+						</a>
+						<a href="https://institutocaldeira.org.br/" target="_blank">
+							<img class="my-small-img" src="images/parceiros/caldeira.png" alt="Caldeira">
+						</a>
+						<a href="https://pt.catarinacapital.com/" target="_blank">
+							<img class="my-small-img" src="images/parceiros/catarina.png" alt="Catarina Capital">
+						</a>
+						<a href="https://www.nvidia.com/pt-br/" target="_blank">
+							<img class="my-small-img" src="images/parceiros/nvidia.webp" alt="Nvidia">
+						</a>
+						<a href="https://southcollabhealth.com.br/" target="_blank">
+							<img class="my-small-img" src="images/parceiros/shouthcollab.png" alt="South Collab Health">
+						</a>
+					</div>
 			</div>
 		</article>
 
 
 	</main>
 
-	
+
 	<footer class="m-0">
 		<div class="container-fluid my-header text-center py-4">
-			<div class="text-center mb-3 d-flex px-5 justify-content-center">
-				<a href="https://www.youtube.com/channel/UCO4cg-Ks9V7HQ-XyL1PPjrA" class="mx-4 my-icon">
-					<i class="fab fa-youtube"></i></a>
-				<a href="https://www.linkedin.com/in/navi-institucional-313654200/" class="mx-4 my-icon">
-					<i class="fab fa-linkedin"></i></a>
-				<a href="https://www.instagram.com/navi.ai/" class="mx-4 my-icon">
-					<i class="fab fa-instagram"></i></a>
-			</div>
+			<div class="d-flex justify-content-around align-items-center">
+				<!-- contato -->
+				<address class="text-white">
+					<h5>Onde Estamos</h5>
+					<hr style="border: 1px solid white">
+					<p>
+						Av. Ipiranga, 6681 - Partenon <br>
+						Porto Alegre - RS, 90619-900 <br>
+						(Prédio 95C - Térreo) <br>
+					</p>
+					<hr style="border: 1px solid white">
+					<p>
+						Também temos Whatsapp <br>
+						55 51 98333.7381
+					</p>
+				</address>
 
-			<nav class="navbar navbar-expand-lg">
-				<div class="collapse navbar-collapse">
-					<ul class="navbar-nav my-nav d-flex justify-content-around">
-						<li class="nav-item">
-							<a class="my-button btn" href="https://www.navi.com.ai/noticias-artigos">Sobre</a>
-						</li>
-
-						<li>
-							<a class="my-button btn" href="https://www.navi.com.ai/noticias-artigos">News</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="my-button btn" href="https://www.navi.com.ai/startups">Startups</a>
-						</li>
-
-						<li class="nav-item my-dropdown-hover">
-							<span class="my-button btn">Pilares</span>
-							<div class="dropdown-menu my-main-drop my-dropdown-elements">
-								<a class="dropdown-item my-button btn"
-									href="https://www.navi.com.ai/espa%C3%A7o">Espaço</a>
-								<a class="dropdown-item my-button btn"
-									href="https://www.navi.com.ai/pesquisa">Pesquisa</a>
-								<a class="dropdown-item my-button btn"
-									href="https://www.navi.com.ai/programa">Programa</a>
-								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/lab">Lab</a>
-							</div>
-						</li>
-
-						<li class="nav-item my-dropdown-hover">
-							<div class="dropdown-menu my-main-drop my-dropdown-elements">
-								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/navi-awards">Navi
-									Awards</a>
-								<a class="dropdown-item my-button btn" href="https://www.navi.com.ai/navi-bootcamp">Navi
-									Bootcamp</a>
-								<a class="dropdown-item my-button btn" href="https://www.raies.org/">Raies</a>
-								<a class="dropdown-item my-button btn"
-									href="https://www.navi.com.ai/deep-tech-challenge">Deep Tech Challenge</a>
-								<a class="dropdown-item my-button btn" href="https://www.airespucrs.org/">Aires
-									Pucrs</a>
-							</div>
-							<span class="my-button btn">Iniciativas</span>
-						</li>
-
-						<li class="nav-item">
-							<a class="my-button btn" href="https://www.navi.com.ai/contato">Contato</a>
-						</li>
-
-					</ul>
+				<div>
+					<h5 class="text-white">Siga-nos nas redes sociais</h5>
+					<hr style="border: 1px solid white">
+					<div class="text-center mb-3 d-flex px-5 justify-content-center">
+						<a href="https://www.youtube.com/channel/UCO4cg-Ks9V7HQ-XyL1PPjrA" target="_blank" class="mx-4 my-icon">
+							<i class="fab fa-youtube"></i></a>
+						<a href="https://www.linkedin.com/in/navi-institucional-313654200/" target="_blank" class="mx-4 my-icon">
+							<i class="fab fa-linkedin"></i></a>
+						<a href="https://www.instagram.com/navi.ai/" target="_blank" class="mx-4 my-icon">
+							<i class="fab fa-instagram"></i></a>
+						<a href="https://twitter.com/NavInsights" target="_blank" class="mx-4 my-icon">
+							<i class="fab fa-twitter"></i></a>
+					</div>
 				</div>
-			</nav>
-
+				
+			</div>
+			
 			<div>
 				<p class="text-white">&copy;2021 por NAVI AI New Ventures</p>
 			</div>
 		</div>
 	</footer>
 
+	<script src="carousel.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 </body>
 

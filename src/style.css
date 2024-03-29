@@ -51,7 +51,7 @@
 }
 
 .my-bg-img {
-    z-index: -1;
+    z-index: 1;
     background-image: url('images/blue-bg.webp');
     background-size: cover;
     background-position: center;
@@ -99,11 +99,59 @@
     margin-top: 20px;
 }
 
+.my-carousel-view{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.my-carousel-list {
+    width: 100%;
+    display: flex;
+    padding: 0;
+}
+
+.my-carousel-item {
+    min-width: 100%;
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-carousel-item-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 50px;
+}
+
+.my-carousel-item-container > img{
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+}
+
+.my-carousel-item-container > p{
+    width: 30%;
+    height: auto;
+    object-fit: contain;
+    text-align: left;
+}
+
 .my-img-container{
     display: flex-box;
     justify-content: space-evenly;
     align-items: center;
 }
+
 
 .my-img-container > a{
     margin: 10px;
@@ -114,4 +162,12 @@
     max-width: 100px;
     height: auto;
     object-fit: contain;
+}
+
+.my-next-btn, .my-prev-btn{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    width: 10%;
+    z-index: 1000;
 }
