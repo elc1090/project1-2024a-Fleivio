@@ -4,25 +4,27 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Header com Bootstrap</title>
+	<title>Trabalho do Flavio</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
 	<header class="my-header py-4 px-5">
-		<div class="row align-items-center">
-			<div class="col-auto p-0">
-				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTH92jJHk_n3GSKPf4UvHEp776ncUnrqCx4dK6_tIU3A&s"
-					alt="Logo" style="max-width: 70px;">
+		<div class="w-100 row align-items-center">
+			<div class="col-auto p-0" style="min-width: 5%">
+				<img 
+				src="images/logo-2.svg"
+				alt="Logo" 
+				class="w-100 d-block">
 			</div>
 
 			<nav class="col navbar navbar-expand-lg">
 				<div class="collapse navbar-collapse">
-					<ul class="navbar-nav my-nav d-flex	flex-direction-r">
+					<ul class="navbar-nav px-3 my-nav d-flex	flex-direction-r">
 						<li class="nav-item">
 							<a class="my-button btn" href="https://www.navi.com.ai/noticias-artigos">Sobre</a>
 						</li>
@@ -79,51 +81,83 @@
 		</div>
 	</header>
 
-
-
 	<main>
 
 		<article class="article py-5 my-bg-img shadow">
 			<div class="text-center">
-				<h2 style="display:inline">Artigo 1</h2>
-				<p>Patrocinador Master</p>
+				<img
+					class="w-25" 
+					src="images/logo.svg"
+					alt="logo">
 			</div>
 		</article>
 
 		<article class="article py-5 my-bg-repeat shadow">
-			<div class="text-center">
-				<h2>Artigo 2</h2>
-				<p>Conteúdo do Artigo 2</p>
-				<h2>Artigo 2</h2>
-				<p>Conteúdo do Artigo 2</p>
-				<h2>Artigo 2</h2>
-				<p>Conteúdo do Artigo 2</p>
-				<h2>Artigo 2</h2>
-				<p>Conteúdo do Artigo 2</p>
-				<h2>Artigo 2</h2>
-				<p>Conteúdo do Artigo 2</p>
-				<h2>Artigo 2</h2>
-				<p>Conteúdo do Artigo 2</p>
+			<div class="text-center d-flex flex-column align-items-center">
+				<h1 class="my-h1 w-50">HUB DE INTELIGÊNCIA ARTIFICIAL E CIÊNCIA DE DADOS</h1>
+
+				<video 
+				        frameborder="0"
+						class="w-50 m-4"
+						controls
+						autoplay
+						muted>
+						<source 
+							src="https://video.wixstatic.com/video/cc627c_4add2f4b85da4e6a882b14158d65c38e/1080p/mp4/file.mp4"
+							type="video/mp4">
+						Your browser does not support iframes.
+				</video>
+
+				<p class="my-h2 w-75 m-4">
+					Nossa missão é conectar empreendedores, corporações, 
+					investidores e pesquisadores para fomentar iniciativas e 
+					negócios com apoio da Inteligência Artificial.</p>
 			</div>
 		</article>
 
 		<article class="article py-5 shadow my-bg-img">
 			<div class="text-center">
-				<h2>Artigo 3</h2>
-				<p>Conteúdo do Artigo 3</p>
+				<h1 class="my-h1 text-white">Startups</h1>
+				
 			</div>
 		</article>
 
 		<article class="article py-5 my-bg-repeat shadow">
-			<div class="text-center">
-				<h2>Artigo 4</h2>
-				<p>Conteúdo do Artigo 4</p>
+			<div class="text-center d-flex flex-column align-items-center">
+				<h1 class="my-h1">Parceiros</h2>
+				<div class="w-100 m-4 my-img-container">
+					<a href="https://www.associacaocomercialpoa.com.br" target="_blank">
+						<img class="my-small-img" src="images/parceiros/associacao.png" alt="Associação Comercial Porto Alegre">
+					</a>
+					<a href="https://www.oracle.com/br/cloud/" target="_blank">
+						<img class="my-small-img" src="images/parceiros/oracle.png" alt="Associação Comercial Porto Alegre">
+					</a>
+					<a href="https://aws.amazon.com/pt/?nc2=h_lg" target="_blank">
+						<img class="my-small-img" src="images/parceiros/aws.png" alt="AWS Activate">
+					</a>
+					<a href="https://www.banrisul.com.br/" target="_blank">
+						<img class="my-small-img" src="images/parceiros/banrisul.png" alt="Banrisul">
+					</a>
+					<a href="https://institutocaldeira.org.br/" target="_blank">
+						<img class="my-small-img" src="images/parceiros/caldeira.png" alt="Caldeira">
+					</a>
+					<a href="https://pt.catarinacapital.com/" target="_blank">
+						<img class="my-small-img" src="images/parceiros/catarina.png" alt="Catarina Capital">
+					</a>
+					<a href="https://www.nvidia.com/pt-br/" target="_blank">
+						<img class="my-small-img" src="images/parceiros/nvidia.webp" alt="Nvidia">
+					</a>
+					<a href="https://southcollabhealth.com.br/" target="_blank">
+						<img class="my-small-img" src="images/parceiros/shouthcollab.png" alt="South Collab Health">
+					</a>
+				</div>
 			</div>
 		</article>
 
 
 	</main>
 
+	
 	<footer class="m-0">
 		<div class="container-fluid my-header text-center py-4">
 			<div class="text-center mb-3 d-flex px-5 justify-content-center">
