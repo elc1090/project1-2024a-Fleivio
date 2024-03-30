@@ -1,6 +1,6 @@
 # Projeto: Remake de site/app web
 
-![Substitua a imagem ao lado por um screenshot do seu projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto")
+![Substitua a imagem ao lado por um screenshot do seu projeto]("imgs/Site_remake.png")
 
 
 Acesso: [Substitua este texto pela URL para acesso ao site publicado](https://fleivio.github.io/src/)
