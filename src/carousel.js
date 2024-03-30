@@ -31,4 +31,4 @@ document.getElementById('next-btn').addEventListener('click', nextSlide);
 document.getElementById('prev-btn').addEventListener('click', prevSlide);
 
 //passa a casa 5 segundos
-setInterval(nextSlide, 5000);
+setInterval(nextSlide, 10000);
