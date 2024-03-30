@@ -1,9 +1,10 @@
 # Projeto: Remake de site/app web
 
-![Substitua a imagem ao lado por um screenshot do seu projeto]("imgs/Site_remake.png")
+![imgs/remake_01.png](imgs/remake_01.png)
+![imgs/remake_02.png](imgs/remake_02.png)
 
 
-Acesso: [Substitua este texto pela URL para acesso ao site publicado](https://fleivio.github.io/src/)
+Acesso: [Site publicado](https://fleivio.github.io/src/)
 
 
 #### Desenvolvedor(a)
@@ -30,7 +31,13 @@ Porém, o site apresenta seus problemas:
 
 #### Desenvolvimento
 
-O principal objetivo do remake foi enxugar o site, condensando suas informações. A seção de noticias foi removida, e criada uma seção apenas para os colaboradores/patrocinadores. Também, apra tantar deixar mais claro as suas iniciativas, um carrossel das startups relacionadas foi adicionado. Para cada startup foi consertado o seu link e adicionando uma breve descrição do que ela se propõe.
+O principal objetivo do remake foi enxugar o site, condensando suas informações. A seção de noticias foi removida, e criada uma seção apenas para os colaboradores/patrocinadores. 
+
+| Antes  | Depois |
+| ------------- | ------------- |
+|  ![imgs/original.png](imgs/parceiros_original.png)  ![imgs/patroci.png](imgs/patrocinio_original.png) |  ![imgs/remake.png](imgs/parceiros.png) |
+
+Também, apra tantar deixar mais claro as suas iniciativas, um carrossel das startups relacionadas foi adicionado. Para cada startup foi consertado o seu link e adicionando uma breve descrição do que ela se propõe.
 
 Sobre a navbar, separou-se o botão-dropdown em dois botões diferentes, e adicionado um efeito hover. Também foi removida a navbar redundante do footer do site, e adicionado informações sobre o endereço em que a empresa se encontra e suas redes sociais.
 
@@ -43,6 +50,10 @@ Foram removidos botões e links redundantes, como aqueles que apenas retornavam 
 - Footer com endereço e contato;
 
 Para a extração das imagens, foi utilizado o site [Image Extractor](https://extract.pics/), que me retornou as imagens do site para download. Acredito que ele também tenha gerado as imagens de background, as quais eu não consegui encontrar analisando o código do site.
+
+| Antes  | Depois |
+| ------------- | ------------- |
+|  ![imgs/original.png](imgs/original.png) |  ![imgs/remake.png](imgs/remake_01.png) ![imgs/remake.png](imgs/remake_02.png) |
 
 #### Tecnologias
 
