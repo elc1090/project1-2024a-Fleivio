@@ -11,7 +11,7 @@
 ![Substitua a imagem ao lado por um screenshot do seu projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto")
 
 
-Acesso: Substitua este texto pela URL para acesso ao site publicado
+Acesso: [Substitua este texto pela URL para acesso ao site publicado](https://fleivio.github.io/src/)
 
 
 #### Desenvolvedor(a)
