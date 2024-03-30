@@ -35,7 +35,7 @@ O principal objetivo do remake foi enxugar o site, condensando suas informaçõe
 
 | Antes  | Depois |
 | ------------- | ------------- |
-|  ![imgs/original.png](imgs/parceiros_original.png)  ![imgs/patroci.png](imgs/patrocinio_original.png) |  ![imgs/remake.png](imgs/parceiros.png) |
+|  ![imgs/original.png](imgs/parceiros_original.png)  ![imgs/patroci.png](imgs/patrocionio_original.png) |  ![imgs/remake.png](imgs/parceiros.png) |
 
 Também, apra tantar deixar mais claro as suas iniciativas, um carrossel das startups relacionadas foi adicionado. Para cada startup foi consertado o seu link e adicionando uma breve descrição do que ela se propõe.
 
