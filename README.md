@@ -15,34 +15,67 @@ Acesso: Substitua este texto pela URL para acesso ao site publicado
 
 
 #### Desenvolvedor(a)
-Substitua este texto pela sua identificação: nome e curso
+Flávio Borin Júnior, Ciência da Computação
 
 
 #### Site/app escolhido
 
 ##### Link
-Substitua este texto pela URL do site/app escolhido
+https://www.navi.com.ai/
 
 ##### Descrição
-Substitua este texto por uma descrição do site/app escolhido. Inclua observações sobre seu conteúdo, aparência e código.
+O site escolhido foi o site de uma startup, a Navi, que busca unir empreendedores à outras startups que trabalhem com inteligência artificial. O site é desenvolvido na plataforma No-Code/Low-Code Wix.
+
+Em uma primeira análise, o site é relativamente bonito, possuindo efeitos de paralaxe bem interessantes, um header retrátil, e uma paleta de cores consistente.
+
+Porém, o site apresenta seus problemas:
+- O carregamento dos elementos conforme o usuário scrolla demora muito;
+- A maioria dos links para suas startups e redes sociais não funcionam;
+- A navbar apresenta um dropdown que é ao mesmo tempo um botão;
+- Os patrocinadores/colaboradores estão todos espalhados em lugares diferentes do site;
+- Não há alguma explicação sobre o que suas startups fazem;
+- Diversos botões como "Saiba Mais" ou "Conheça o Espaço" apenas levam de volta para o início da página;
+- Os botões na navbar não possuem um efeito hover, causando certa estranhesa nos dropdowns;
 
 #### Desenvolvimento
 
-Substitua este texto por uma descrição do processo de desenvolvimento, explicando suas escolhas para o remake e etapas do trabalho (por exemplo, como foi coletado o conteúdo, qual foi seu foco no remake, etc.)
+O principal objetivo do remake foi enxugar o site, condensando suas informações. A seção de noticias foi removida, e criada uma seção apenas para os colaboradores/patrocinadores. Também, apra tantar deixar mais claro as suas iniciativas, um carrossel das startups relacionadas foi adicionado. Para cada startup foi consertado o seu link e adicionando uma breve descrição do que ela se propõe.
 
+Sobre a navbar, separou-se o botão-dropdown em dois botões diferentes, e adicionado um efeito hover. Também foi removida a navbar redundante do footer do site, e adicionado informações sobre o endereço em que a empresa se encontra e suas redes sociais.
+
+Foram removidos botões e links redundantes, como aqueles que apenas retornavam para o início. Em suma, o site ficou menor, e dividido nas seguintes seções:
+- Header com logo e navbar;
+- Seção com o logo maior;
+- Seção explicativa, com vídeo sobre o que a empresa se propõe;
+- Carrossel com as suas startups;
+- Lista de parceiros;
+- Footer com endereço e contato;
+
+Para a extração das imagens, foi utilizado o site Image Extractor https://extract.pics/, que me retornou as imagens do site para download. Acredito que ele também tenha gerado as imagens de background, as quais eu não consegui encontrar analisando o código do site.
 
 #### Tecnologias
 
-Substitua este trecho por uma lista detalhada de tecnologias usadas (tanto as básicas, como HTML e CSS, como as mais específicas, por exemplo Tailwind, etc.):
-- ...
-- ...
-- 
+Para o desenvolvimento do site foram utilizadas:
+- HTML;
+- CSS;
+- Bootstrap;
+- Javascript;
+
+Foi utilizado HTML semântico para organizar as informações no site. 
+
+O Bootstrap foi utilizado principalmente para alterações rápidas e oraganização de displays, margens e padding.
+
+O CSS foi utilizado para estilização (fontes, cores, bordas etc.) e efeitos como hover, transform etc. 
+
+O JavaScript foi utilizado para fazer o carrossel, atribuindo event listenners aos botões que passam de slide. O carrossel também passa automaticamente a cada 10 segundos.
 
 #### Ambiente de desenvolvimento
 
-Substitua este trecho por uma lista detalhada dos ambientes/ferramentas de desenvolvimento que você usou (por exemplo, VS Code + alguma extensão, etc.)
-- ...
-- ...
+Para o desenvolvimento do site, foram utilizados
+
+- VsCode;
+- Extensão Live Server;
+- GitHub Copilot Chat;
 
 #### Referências e créditos
 
