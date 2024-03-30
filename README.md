@@ -39,6 +39,10 @@ O principal objetivo do remake foi enxugar o site, condensando suas informaçõe
 
 Também, apra tantar deixar mais claro as suas iniciativas, um carrossel das startups relacionadas foi adicionado. Para cada startup foi consertado o seu link e adicionando uma breve descrição do que ela se propõe.
 
+| Antes  | Depois |
+| ------------- | ------------- |
+|  ![imgs/original.png](imgs/startups_original.png) |  ![imgs/remake.png](imgs/startups_remake.png) |
+
 Sobre a navbar, separou-se o botão-dropdown em dois botões diferentes, e adicionado um efeito hover. Também foi removida a navbar redundante do footer do site, e adicionado informações sobre o endereço em que a empresa se encontra e suas redes sociais.
 
 Foram removidos botões e links redundantes, como aqueles que apenas retornavam para o início. Em suma, o site ficou menor, e dividido nas seguintes seções:
