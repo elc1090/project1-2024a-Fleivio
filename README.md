@@ -17,11 +17,10 @@ Acesso: Substitua este texto pela URL para acesso ao site publicado
 #### Desenvolvedor(a)
 Flávio Borin Júnior, Ciência da Computação
 
-
 #### Site/app escolhido
 
 ##### Link
-https://www.navi.com.ai/
+[Navi](https://www.navi.com.ai/)
 
 ##### Descrição
 O site escolhido foi o site de uma startup, a Navi, que busca unir empreendedores à outras startups que trabalhem com inteligência artificial. O site é desenvolvido na plataforma No-Code/Low-Code Wix.
@@ -51,7 +50,7 @@ Foram removidos botões e links redundantes, como aqueles que apenas retornavam 
 - Lista de parceiros;
 - Footer com endereço e contato;
 
-Para a extração das imagens, foi utilizado o site Image Extractor https://extract.pics/, que me retornou as imagens do site para download. Acredito que ele também tenha gerado as imagens de background, as quais eu não consegui encontrar analisando o código do site.
+Para a extração das imagens, foi utilizado o site [Image Extractor](https://extract.pics/), que me retornou as imagens do site para download. Acredito que ele também tenha gerado as imagens de background, as quais eu não consegui encontrar analisando o código do site.
 
 #### Tecnologias
 
@@ -79,9 +78,34 @@ Para o desenvolvimento do site, foram utilizados
 
 #### Referências e créditos
 
-Substitua este trecho por uma lista bem detalhada de todo material que você consultou para ajudar no projeto, por exemplo:  URL de templates usados, URL de icon kits usados, créditos para colegas que colaboraram, geradores de código (incluindo alguns prompts usados para o ChatGPT, se for o caso)
-- ...
-- ...
+- [Image Extractor](https://extract.pics/)
+- [How to create a Slideshow/Carousel using HTML, CSS & JS.](https://medium.com/@algopoint.ltd/how-to-create-a-slideshow-carousel-using-html-css-js-7ab0561b39b3)
+- Pedro Hinerasky, que me deu a ideia de adicionar descrição para cada startup
+- Deivis Felipe, que me ajudou a perceber que o botão não estava clicável por que seu z-index era negativo
+- W3Schools e MDN para pesquisas sobre o que certos atributos e tags significam
+- ChatGPT:
+  - Me ensinou sobre background-attachment: fixed; para paralaxe simples;
+      ```
+      como faço um elemento q possua uma imagem de background que se move conforme o usuário scrolla
+      ```
+  - Me ensinou sobre .container-fluid do Bootstrap;
+    ```
+    qual classe bootstrap devo utilizar para que os filhos dum elemento nao ocupem toda width
+    ```
+  - Me forneceu o [link](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css) para ícones de redes sociais
+  - Fez a base do meu footer e header (que depois eu mudei)
+    ```
+    com bootstrap, faça um footer que tenha, nessa ordem:
+    
+    uma linha com as redes sociais, cada um representada por um icone clicável
+    um linha para uma navbar centralizada com botões
+    uma linha com copyright
+    ```
+
+    ```
+    faça em bootstrap um header que contenha:
+    uma pequena imagem da logo do site na esquerda, uma navbar maior, com menus dropdown e botões normais também, e dois botões extra na direita, estes com borda
+    ```
 
 
 
