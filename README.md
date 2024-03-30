@@ -45,6 +45,11 @@ Também, apra tantar deixar mais claro as suas iniciativas, um carrossel das sta
 
 Sobre a navbar, separou-se o botão-dropdown em dois botões diferentes, e adicionado um efeito hover. Também foi removida a navbar redundante do footer do site, e adicionado informações sobre o endereço em que a empresa se encontra e suas redes sociais.
 
+| Antes  | Depois |
+| ------------- | ------------- |
+|  ![imgs/original.png](imgs/header_original.png) |  ![imgs/remake.png](imgs/header_remake.png) |
+|  ![imgs/original.png](imgs/footer_original.png) |  ![imgs/remake.png](imgs/footer_remake.png) |
+
 Foram removidos botões e links redundantes, como aqueles que apenas retornavam para o início. Em suma, o site ficou menor, e dividido nas seguintes seções:
 - Header com logo e navbar;
 - Seção com o logo maior;
