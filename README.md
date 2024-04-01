@@ -16,18 +16,18 @@ Flávio Borin Júnior, Ciência da Computação
 [Navi](https://www.navi.com.ai/)
 
 ##### Descrição
-O site escolhido foi o site de uma startup, a Navi, que busca unir empreendedores à outras startups que trabalhem com inteligência artificial. O site é desenvolvido na plataforma No-Code/Low-Code Wix.
+O site escolhido foi o site de uma startup, a Navi, que busca unir empreendedores a outras startups que trabalhem com inteligência artificial. O site é desenvolvido na plataforma No-Code/Low-Code Wix.
 
-Em uma primeira análise, o site é relativamente bonito, possuindo efeitos de paralaxe bem interessantes, um header retrátil, e uma paleta de cores consistente.
+Em uma primeira análise, o site é relativamente bonito, possuindo efeitos de paralaxe bem interessantes, um header retrátil e uma paleta de cores consistente.
 
 Porém, o site apresenta seus problemas:
-- O carregamento dos elementos conforme o usuário scrolla demora muito;
+- O carregamento dos elementos conforme o usuário rola a página demora muito;
 - A maioria dos links para suas startups e redes sociais não funcionam;
 - A navbar apresenta um dropdown que é ao mesmo tempo um botão;
 - Os patrocinadores/colaboradores estão todos espalhados em lugares diferentes do site;
 - Não há alguma explicação sobre o que suas startups fazem;
 - Diversos botões como "Saiba Mais" ou "Conheça o Espaço" apenas levam de volta para o início da página;
-- Os botões na navbar não possuem um efeito hover, causando certa estranhesa nos dropdowns;
+- Os botões na navbar não possuem um efeito hover, causando certa estranheza nos dropdowns.
 
 #### Desenvolvimento
 
@@ -37,7 +37,7 @@ O principal objetivo do remake foi enxugar o site, condensando suas informaçõe
 | ------------- | ------------- |
 |  ![imgs/original.png](imgs/parceiros_original.png)  ![imgs/patroci.png](imgs/patrocionio_original.png) |  ![imgs/remake.png](imgs/parceiros.png) |
 
-Também, apra tantar deixar mais claro as suas iniciativas, um carrossel das startups relacionadas foi adicionado. Para cada startup foi consertado o seu link e adicionando uma breve descrição do que ela se propõe.
+Também, para tentar deixar mais claro as suas iniciativas, um carrossel das startups relacionadas foi adicionado. Para cada startup, seu link foi corrigido e uma breve descrição do que ela se propõe foi adicionada.
 
 | Antes  | Depois |
 | ------------- | ------------- |
